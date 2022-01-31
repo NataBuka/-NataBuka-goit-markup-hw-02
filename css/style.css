@@ -6,6 +6,13 @@
   000000 - logo text
   F5F4FA - fill of section Наша команда
   E5E5E5 - background portfolio
-  rgba(255,255,255,0.6) - secondary text color*/
+  rgba(255,255,255,0.6) - secondary text color
+  F5F4FA - fill button*/
 
-body{}
+.page {background-color: FFFFFF;
+        color: 757575;}
+.site-nav a:hover{}
+.link{color: 757575;}
+.link :hover{color: 2196F3;}
+.site-nav a{color: 212121;}
+.site-nav a:hover{color: 2196F3;}
