@@ -8,14 +8,23 @@
   E5E5E5 - background portfolio
   rgba(255,255,255,0.6) - secondary text color
   F5F4FA - fill button*/
+:root {--brand-color: #2196F3;
+       --basc-color: #757575;
+       --title-color: #212121;
+       --wite-color: #FFFFFF;} 
+
 
 .page {background-color: FFFFFF;
-        color: 757575;}
-.link {color: 757575;}
-.link :hover {color: 2196F3;}
-.site-nav .link {color: 212121;}
-.site-nav .link:hover ,
-.site-nav .link:focus {color: 2196F3;}
-.site-nav .link:active {color:2196F3;}
-.text {color: 757575;}
+        color: var(--basc-color);}
+.brand {color: var(--brand-color);}
+.logo {color: var(--title-color);}
+.link {color: var(--basc-color);}
+.link:hover , 
+.link:focus {color: var(--brand-color);}
+.nav .link {color: var(--title-color);}
+.nav .link:hover ,
+.nav .link:focus ,
+.nav .link:active {color: var(--brand-color);}
+h1 {color: var(--wite-color);}
+
  
