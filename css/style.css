@@ -32,6 +32,8 @@
 .publicity .text {color: var(--basc-color);}
 .works .title {color: var(--title-color);}
 .works .img {list-style: none;}
+.team .team-title {color: var(--title-color);}
+.team .team-list {list-style: none;}
 
 
  
