@@ -25,6 +25,8 @@
 .nav .link:hover ,
 .nav .link:focus ,
 .nav .link:active {color: var(--brand-color);}
-h1 {color: var(--wite-color);}
+.caption> h1 {color: var(--wite-color);}
+.caption .link {color: var(--wite-color);}
+.caption .link {background-color:  var(--brand-color);}
 
  
