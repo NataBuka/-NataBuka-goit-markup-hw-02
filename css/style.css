@@ -30,6 +30,8 @@
 .caption .link {background-color:  var(--brand-color);}
 .publicity .title {color: var(--title-color);}
 .publicity .text {color: var(--basc-color);}
+.works .title {color: var(--title-color);}
+.works .img {list-style: none;}
 
 
  
