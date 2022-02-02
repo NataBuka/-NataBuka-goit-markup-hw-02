@@ -14,7 +14,7 @@
        --wite-color: #FFFFFF;} 
 
 
-.page {background-color: FFFFFF;
+.page {background-color: var(--wite-color);
         color: var(--basc-color);}
 .brand {color: var(--brand-color);}
 .logo {color: var(--title-color);}
@@ -28,5 +28,8 @@
 .caption> h1 {color: var(--wite-color);}
 .caption .link {color: var(--wite-color);}
 .caption .link {background-color:  var(--brand-color);}
+.publicity .title {color: var(--title-color);}
+.publicity .text {color: var(--basc-color);}
+
 
  
