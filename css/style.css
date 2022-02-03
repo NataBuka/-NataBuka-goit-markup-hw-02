@@ -15,6 +15,25 @@
        --secondary-text-color: #rgba(255,255,255,0.6);} 
 
 
-       a {text-decoration: none;}
-       ul {list-style: none;}
-  
+ body {background-color: var(--background-portfolio-color);
+       color: var(--basc-text-color);
+       font-family: Roboto, sans-serif;} 
+       
+ .header-logo,
+ .fooer-logo {color: var(--brand-color);
+              font-family: Raleway, sans-serif;
+              font-weight: bold;
+              font-size: 26px;
+              line-height: 1.19;
+              letter-spacing: 0.03em;} 
+ .footer-brand {color: var(--wite-color);}                       
+ .header-brand {color: var(--logo-text-color);
+                font-family: Raleway, sans-serif;} 
+
+.header-link {color: var(--black-color);
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 1.14;
+              letter-spacing: 0.02em;}
+
+ button {font-family: inherit;}             
