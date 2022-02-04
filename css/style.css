@@ -1,9 +1,4 @@
-/*
-  
-  F5F4FA - fill of section Наша команда
-  E5E5E5 - background portfolio
-  rgba(255,255,255,0.6) - secondary text color
-  F5F4FA - fill button*/
+
 :root {--brand-color: #2196F3;
        --basc-text-color: #757575;
        --black-color: #212121;
@@ -24,7 +19,7 @@
 
  
 
- .header-logo,
+.header-logo,
 .fooer-logo {color: var(--brand-color);
               text-decoration: none;
               font-family: Raleway, sans-serif;
@@ -137,8 +132,16 @@
                       color: var(--wite-color);}
 .filter-list {list-style-type: none;} 
 .filter-item {background-color: #FFFFFF;}
-.button-title {}
-     
+.button-title {color: var(--black-color);
+               font-weight: 700;
+               font-size: 18px;
+               line-height: 2.00;
+               letter-spacing: 0.06em;}
+.button-text {font-weight: 400;
+              font-size: 16px;
+              line-height: 1.87;}   
+
+.filter-img {list-style-type: none;}
 
 
 
