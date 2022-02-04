@@ -16,6 +16,10 @@
        font-family: Roboto, sans-serif;
        letter-spacing: 0.03em;} 
 
+.header-nav .header-link.current {color: var(--brand-color);} 
+
+.header-list .header-link.current {color: var(--brand-color);}
+
 .header-logo,
 .fooer-logo {color: var(--brand-color);
               text-decoration: none;
@@ -61,6 +65,7 @@
 .button {font-family: inherit;
          color: var(--wite-color);
          background-color: var(--brand-color);
+         cursor: pointer;
          font-weight: 700;
          font-size: 16px;
          line-height: 1.87;
@@ -121,6 +126,7 @@
 
 .filter-buttom {background-color: var(--button-portfolio-fill);
                 color: var(--black-color);
+                cursor: pointer;
                 font-family: inherit;
                 font-weight: 500;
                 font-size: 16px;
