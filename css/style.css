@@ -11,13 +11,10 @@
        --button-color: #188CE8;
        --button-portfolio-fill: #F5F4FA;} 
 
-
  body {background-color: var(--background-portfolio-color);
        color: var(--basc-text-color);
        font-family: Roboto, sans-serif;
        letter-spacing: 0.03em;} 
-
- 
 
 .header-logo,
 .fooer-logo {color: var(--brand-color);
@@ -61,10 +58,7 @@
 
 .team {background-color: var(--secondary-fill-color);}
 
-
-
-
- .button {font-family: inherit;
+.button {font-family: inherit;
          color: var(--wite-color);
          background-color: var(--brand-color);
          font-weight: 700;
@@ -122,21 +116,28 @@
               font-size: 14px;
               line-height: 1.71;}
 
+.footer-link:hover,
+.footer-link:focus {color: var(--brand-color);}
+
 .filter-buttom {background-color: var(--button-portfolio-fill);
                 color: var(--black-color);
-                font-family: Roboto;
+                font-family: inherit;
                 font-weight: 500;
                 font-size: 16px;
                 line-height: 1.62;}
 .filter-buttom:hover {background-color: var(--brand-color);
                       color: var(--wite-color);}
+
 .filter-list {list-style-type: none;} 
+
 .filter-item {background-color: #FFFFFF;}
+
 .button-title {color: var(--black-color);
                font-weight: 700;
                font-size: 18px;
                line-height: 2.00;
                letter-spacing: 0.06em;}
+
 .button-text {font-weight: 400;
               font-size: 16px;
               line-height: 1.87;}   
