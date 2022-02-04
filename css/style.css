@@ -24,16 +24,25 @@
               font-family: Raleway, sans-serif;
               font-weight: bold;
               font-size: 26px;
-              line-height: 1.19;
-              letter-spacing: 0.03em;} 
+              line-height: 1.19;} 
  .footer-brand {color: var(--wite-color);}                       
  .header-brand {color: var(--logo-text-color);
-                font-family: Raleway, sans-serif;} 
+                font-family: Raleway, sans-serif;}                
 
 .header-link {color: var(--black-color);
               font-weight: 500;
               font-size: 14px;
-              line-height: 1.14;
-              letter-spacing: 0.02em;}
+              line-height: 1.14;}
+ .header-link:hover,
+ .header-link:focus,
+ .header-link:active,
+ .link:hover,
+ .link:focus {color: var(--brand-color);}             
 
- button {font-family: inherit;}             
+ button {font-family: inherit;
+         color: var(--wite-color);
+         background-color: var(--brand-color);
+         font-size: 16px;
+         line-height: 1.87;}
+ 
+ 
